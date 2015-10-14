@@ -1,0 +1,4 @@
+---
+ - name: generate locale
+   command: locale-gen
+   command: update-locale LANG=de_DE.UTF-8 UTF-8

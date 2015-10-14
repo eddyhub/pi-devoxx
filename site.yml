@@ -1,0 +1,5 @@
+---
+- hosts: 10.0.0.56
+  remote_user: root
+  roles:
+    - role: common
